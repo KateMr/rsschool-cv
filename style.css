@@ -1,5 +1,7 @@
 body {
     background-color: #ECD8CC;
+    font-family: Palatino,  serif;
+    font-size: 90%;
 }
 
 aside {
@@ -15,4 +17,46 @@ main {
     margin-left: 38%;
     margin-top: 50px;
     padding: 0px;
+}
+
+img {
+    width: 50%;
+    border-radius: 50%;
+    margin-left: 20%;
+}
+
+h1, h2, h3, h4 {
+    font-family: Trebuchet MS;
+}
+h1 {
+    color: #ECD8CC;
+    font-size: 2rem;
+}
+
+h2 {
+    background-color: #ffffff;
+    width: 300px;
+    padding: 5px 20px;
+    font-size: 200%;
+}
+
+h3 {
+    font-size: 150%;
+    padding-top: 0%;
+}
+
+h4 {
+ font-size: 120%;
+ padding-bottom: 0%;
+}
+
+#datesofwork {
+    font-weight: lighter;
+    font-size: 70%;
+}
+
+hr {
+    width: 60%;
+    
+    left: 15px;
 }
