@@ -20,7 +20,7 @@ main {
     width: 65%;
     margin-left: 38%;
     margin-top: 50px;
-    padding: 0px;
+    padding: 70px 10px;
 }
 
 img {
@@ -39,7 +39,7 @@ h1 {
 }
 
 h2 {
-    background-color: #ffffff;
+    background-color: #ffffff !important;
     width: 300px;
     padding: 5px 20px;
     font-size: 200%;
@@ -47,15 +47,20 @@ h2 {
 
 h3 {
     font-size: 150%;
-    padding-top: 0%;
+    margin: 0px;
 }
 
 h4 {
  font-size: 120%;
- padding-bottom: 0%;
+ margin: 0px;
 }
 
 #datesofwork {
     font-weight: lighter;
     font-size: 70%;
+}
+
+a {
+    color: black;
+    font-weight: bolder;
 }
