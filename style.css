@@ -1,0 +1,66 @@
+@import url(http://fonts.googleapis.com/css?family=Lato&subset=latin,cyrillic);
+
+@import url(http://fonts.googleapis.com/css?family=Oswald&subset=latin,cyrillic);
+
+body {
+    background-color: #ECD8CC;
+    font-family: Lato,  sans-serif;
+    font-size: 90%;
+}
+
+aside {
+    background-color: #ffffff;
+    width: 30%;
+    margin: 0px 20px 50px 0px;
+    padding: 20px 20px 20px 50px;
+    float: left;
+}
+
+main {
+    width: 65%;
+    margin-left: 38%;
+    margin-top: 50px;
+    padding: 70px 10px;
+}
+
+img {
+    width: 50%;
+    border-radius: 50%;
+    margin-left: 20%;
+}
+
+h1, h2, h3, h4 {
+    font-family: Oswald;
+    font-weight: lighter;
+}
+h1 {
+    color: #ECD8CC;
+    font-size: 2.5rem;
+}
+
+h2 {
+    background-color: #ffffff !important;
+    width: 300px;
+    padding: 5px 20px;
+    font-size: 200%;
+}
+
+h3 {
+    font-size: 150%;
+    margin: 0px;
+}
+
+h4 {
+ font-size: 120%;
+ margin: 0px;
+}
+
+#datesofwork {
+    font-weight: lighter;
+    font-size: 70%;
+}
+
+a {
+    color: black;
+    font-weight: bolder;
+}
