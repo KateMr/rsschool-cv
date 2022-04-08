@@ -10,32 +10,160 @@
 </head>
 <body>
     <header class="header">
-        <div class = "container"></div>
-    </header>
-    <main class="main">
         <div class = "container">
-            <section class = "section" id="hero">
-                <h1 class="photographer-name">Alexa Rise</h1>
-            </section>
-            <section class = "section" id="skills">
-                <h2 class = "section-title">Skills</h2>
-            </section>
-            <section class = "section" id="portfolio">
-                <h2 class = "section-title">Portfolio</h2>
-            </section>
-            <section class = "section" id="video">
-                <h2 class = "section-title">Video</h2>
-            </section>
-            <section class = "section" id="price">
-                <h2 class = "section-title">Price</h2>
-            </section>
-            <section class = "section" id="contacts">
-                <h2 class = "section-title">Contacts</h2>
-            </section>
+            <nav class="nav">
+                <div class="logo">
+                    <svg class="icon">
+                        <use xlink:href="./assets/svg/sprite.svg#logo_hover"></use>
+                    </svg>
+                </div>
+                <ul class="nav-list">
+                    <li class="nav-item"><a href="#skills">Skills</a></li>
+                    <li class="nav-item"><a href="#portfolio">Portfolio</a></li>
+                    <li class="nav-item"><a href="#video">Video</a></li>
+                    <li class="nav-item"><a href="#price">Price</a></li>
+                    <li class="nav-item"><a href="#contacts">Contacts</a></li>
+                </ul>
+                <div class="lang"><a style="color: #bdae82">en </a>/<a> ru</a></div>
+            </nav>
         </div>
+    </header>
+
+    <main class="main">
+        <div class="container">
+            <div class = "hero-container">
+                <section class = "hero-section">
+                        <h1 class="photographer-name">Alexa Rise</h1>
+                        <p class="hero-text">Save sincere emotions, romantic feelings and 
+                            happy moments of life together with 
+                            professional photographer Alexa Rise</p>
+                        <a href="#contacts"><button class="filled-button">Hire me!</button></a>
+                </section>
+            </div>
+                <section class = "section" id="skills">
+                    <div class="title-wrap"><h2 class = "section-title">Skills</h2></div>
+
+                    <div class="skills-items">
+                        <div class="skill">
+                            <p><b>Digital photography</b></p>
+                            <p>High-quality photos in the studio and on the nature</p>
+                        </div>
+
+                        <div class="skill">
+                            <p><b>Video shooting</b></p>
+                            <p>Capture your moments so that they always stay with you</p>
+                        </div>
+
+                        <div class="skill">
+                            <p><b>Retouch</b></p>
+                            <p>I strive to make photography surpass reality</p>
+                        </div>
+
+                        <div class="skill">
+                            <p><b>Audio</b></p>
+                            <p>Professional sounds recording for video, advertising, portfolio</p>
+                        </div>
+                    </div>
+                </section>
+
+                <section class = "section" id="portfolio">
+                    <div class="title-wrap"><h2 class = "section-title">Portfolio</h2></div>
+                    <div class="port-btns">
+                        <button class="trans-button">Winter</button>
+                        <button class="trans-button">Spring</button>
+                        <button class="trans-button">Summer</button>
+                        <button class="active-trans-button">Autumn</button>
+                    </div>
+                    <div class="port-imgs">
+                        <img class="port-img" src="./assets/img/portfolio-img.jpg">
+                        <img class="port-img" src="./assets/img/portfolio-img-1.jpg">
+                        <img class="port-img" src="./assets/img/portfolio-img-2.jpg">
+                        <img class="port-img" src="./assets/img/portfolio-img-3.jpg">
+                        <img class="port-img" src="./assets/img/portfolio-img-4.jpg">
+                        <img class="port-img" src="./assets/img/portfolio-img-5.jpg">
+                    </div>
+                </section>
+
+                <section class = "section" id="video">
+                    <div class="title-wrap"><h2 class = "section-title">Video</h2></div>
+                    <div class="video-player">
+                        <img class="video-img" src="./assets/img/video-player.jpg">
+                        <button class="video-button">
+                            <svg class="icon">
+                                <use xlink:href="./assets/svg/sprite.svg#Play_hover"></use>
+                            </svg>
+                        </button>
+                    </div>
+                </section>
+
+                <section class = "section" id="price">
+                    <div class="title-wrap"><h2 class = "section-title">Price</h2></div>
+                    <div class="price-container">
+                        <div class="tarif"> 
+                            <span class="tarif-name">Standard</span>
+                            <span class="tarif-price">500 $</span>
+                            <p class="tarif-text">One location
+                            120 photos in color
+                            12 photos in retouch
+                            Readiness 2-3 weeks
+                            Make up, visage</p>
+                            <button class="filled-button"><a href=#contacts>Order shooting</a></button>
+                        </div>
+                        <div class="tarif"> 
+                            <span class="tarif-name">Premium</span>
+                            <span class="tarif-price">700 $</span>
+                            <p class="tarif-text">One or two locations
+                                200 photos in color
+                                20 photos in retouch
+                                Readiness 1-2 weeks
+                                Make up, visage</p>
+                                <button class="filled-button"><a href=#contacts>Order shooting</a></button>                        </div>
+                        <div class="tarif"> 
+                            <span class="tarif-name">Gold</span>
+                            <span class="tarif-price">1000 $</span>
+                            <p class="tarif-text">Three locations or more
+                                300 photos in color
+                                50 photos in retouch
+                                Readiness 1 weeks
+                                Make up, visage, hairstyle</p>
+                                <button class="filled-button"><a href=#contacts>Order shooting</a></button>                        </div>
+                    </div>
+                </section>
+            </div>
+            <div class="container" id="contacts">
+                <section class = "section" id="contacts">
+                    <div class="contacts-container">
+                        <h2 class = "section-title">Contact me</h2>
+                        <input class="input" type="email" placeholder="E-Mail"> 
+                        <input class="input" type="tel" placeholder="Phone">
+                        <textarea class="input-area" placeholder="Message"></textarea>
+                        <button class="filled-button">Send message</button>
+                    </div>
+                </section>
+            </div>
     </main>
     <footer class="footer">
-        <div class = "container"></div>
+        <div class = "container">
+            <div class="footer-container">
+                <p class="footer-text"><span>©</span><span>2022</span><a class="footer-text" href="https://github.com/rolling-scopes-school">github</a></p>
+                <p class="footer-text">Rolling Scopes School</p>
+                <div class="footer-icons">
+                    <svg class="icon">
+                        <use xlink:href="./assets/svg/sprite.svg#inst 1"></use>
+                    </svg>
+                    <svg class="icon">
+                        <use xlink:href="./assets/svg/sprite.svg#fb 1"></use>
+                    </svg>
+                    <svg class="icon">
+                        <use xlink:href="./assets/svg/sprite.svg#tw 1"></use>
+                    </svg> 
+                    <svg class="icon">
+                        <use xlink:href="./assets/svg/sprite.svg#pinterest 1"></use>
+                    </svg>
+                </div>
+                
+            </div>
+        </div>
     </footer>
 
     <script src='index.js'></script>
