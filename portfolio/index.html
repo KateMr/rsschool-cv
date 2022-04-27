@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portfolio</title>
-    <link rel='icon' type='image/ico' href='/assets/svg/logo 1.ico'>
+    <link rel='icon' type='image/ico' href='/assets/svg/logo-1.ico'>
     <link rel='stylesheet' href='style.css'>
 </head>
 <body>
@@ -24,44 +24,48 @@
                     <li class="nav-item"><a href="#price">Price</a></li>
                     <li class="nav-item"><a href="#contacts">Contacts</a></li>
                 </ul>
-                <div class="lang"><a style="color: #bdae82">en </a>/<a> ru</a></div>
+                <div class="lang">
+                    <a style="color: #bdae82">en </a>
+                    /
+                    <a> ru</a>
+                </div>
             </nav>
         </div>
     </header>
 
     <main class="main">
-        <div class="container">
             <div class = "hero-container">
                 <section class = "hero-section">
                         <h1 class="photographer-name">Alexa Rise</h1>
                         <p class="hero-text">Save sincere emotions, romantic feelings and 
                             happy moments of life together with 
                             professional photographer Alexa Rise</p>
-                        <a href="#contacts"><button class="filled-button">Hire me!</button></a>
+                        <button class="filled-button">Hire me</button>
                 </section>
             </div>
+            <div class="container">
                 <section class = "section" id="skills">
                     <div class="title-wrap"><h2 class = "section-title">Skills</h2></div>
 
                     <div class="skills-items">
                         <div class="skill">
-                            <p><b>Digital photography</b></p>
-                            <p>High-quality photos in the studio and on the nature</p>
+                            <p class="skill-name">Digital photography</p>
+                            <p class="skill-text">High-quality photos in the studio and on the nature</p>
                         </div>
 
                         <div class="skill">
-                            <p><b>Video shooting</b></p>
-                            <p>Capture your moments so that they always stay with you</p>
+                            <p class="skill-name">Video shooting</p>
+                            <p class="skill-text">Capture your moments so that they always stay with you</p>
                         </div>
 
                         <div class="skill">
-                            <p><b>Retouch</b></p>
-                            <p>I strive to make photography surpass reality</p>
+                            <p class="skill-name">Retouch</p>
+                            <p class="skill-text">I strive to make photography surpass reality</p>
                         </div>
 
                         <div class="skill">
-                            <p><b>Audio</b></p>
-                            <p>Professional sounds recording for video, advertising, portfolio</p>
+                            <p class="skill-name">Audio</p>
+                            <p class="skill-text">Professional sounds recording for video, advertising, portfolio</p>
                         </div>
                     </div>
                 </section>
@@ -75,19 +79,19 @@
                         <button class="active-trans-button">Autumn</button>
                     </div>
                     <div class="port-imgs">
-                        <img class="port-img" src="./assets/img/portfolio-img.jpg">
-                        <img class="port-img" src="./assets/img/portfolio-img-1.jpg">
-                        <img class="port-img" src="./assets/img/portfolio-img-2.jpg">
-                        <img class="port-img" src="./assets/img/portfolio-img-3.jpg">
-                        <img class="port-img" src="./assets/img/portfolio-img-4.jpg">
-                        <img class="port-img" src="./assets/img/portfolio-img-5.jpg">
+                        <img class="port-img" src="./assets/img/portfolio-img.jpg" alt="autumn-photo">
+                        <img class="port-img" src="./assets/img/portfolio-img-1.jpg" alt="autumn-photo">
+                        <img class="port-img" src="./assets/img/portfolio-img-2.jpg" alt="autumn-photo">
+                        <img class="port-img" src="./assets/img/portfolio-img-3.jpg" alt="autumn-photo">
+                        <img class="port-img" src="./assets/img/portfolio-img-4.jpg" alt="autumn-photo">
+                        <img class="port-img" src="./assets/img/portfolio-img-5.jpg" alt="autumn-photo">
                     </div>
                 </section>
 
                 <section class = "section" id="video">
                     <div class="title-wrap"><h2 class = "section-title">Video</h2></div>
                     <div class="video-player">
-                        <img class="video-img" src="./assets/img/video-player.jpg">
+                        <img class="video-img" src="./assets/img/video-player.jpg" alt="video">
                         <button class="video-button">
                             <svg class="icon">
                                 <use xlink:href="./assets/svg/sprite.svg#Play_hover"></use>
@@ -107,7 +111,7 @@
                             12 photos in retouch
                             Readiness 2-3 weeks
                             Make up, visage</p>
-                            <button class="filled-button"><a href=#contacts>Order shooting</a></button>
+                            <button class="filled-button">Order shooting</button>
                         </div>
                         <div class="tarif"> 
                             <span class="tarif-name">Premium</span>
@@ -117,7 +121,8 @@
                                 20 photos in retouch
                                 Readiness 1-2 weeks
                                 Make up, visage</p>
-                                <button class="filled-button"><a href=#contacts>Order shooting</a></button>                        </div>
+                                <button class="filled-button">Order shooting</button>
+                        </div>
                         <div class="tarif"> 
                             <span class="tarif-name">Gold</span>
                             <span class="tarif-price">1000 $</span>
@@ -126,11 +131,12 @@
                                 50 photos in retouch
                                 Readiness 1 weeks
                                 Make up, visage, hairstyle</p>
-                                <button class="filled-button"><a href=#contacts>Order shooting</a></button>                        </div>
+                                <button class="filled-button">Order shooting</button>
+                        </div>
                     </div>
                 </section>
             </div>
-            <div class="container" id="contacts">
+            <div class="container" id="contacts-container">
                 <section class = "section" id="contacts">
                     <div class="contacts-container">
                         <h2 class = "section-title">Contact me</h2>
@@ -149,16 +155,16 @@
                 <p class="footer-text">Rolling Scopes School</p>
                 <div class="footer-icons">
                     <svg class="icon">
-                        <use xlink:href="./assets/svg/sprite.svg#inst 1"></use>
+                        <use xlink:href="./assets/svg/sprite.svg#inst-1"></use>
                     </svg>
                     <svg class="icon">
-                        <use xlink:href="./assets/svg/sprite.svg#fb 1"></use>
+                        <use xlink:href="./assets/svg/sprite.svg#fb-1"></use>
                     </svg>
                     <svg class="icon">
-                        <use xlink:href="./assets/svg/sprite.svg#tw 1"></use>
+                        <use xlink:href="./assets/svg/sprite.svg#tw-1"></use>
                     </svg> 
                     <svg class="icon">
-                        <use xlink:href="./assets/svg/sprite.svg#pinterest 1"></use>
+                        <use xlink:href="./assets/svg/sprite.svg#pinterest-1"></use>
                     </svg>
                 </div>
                 
